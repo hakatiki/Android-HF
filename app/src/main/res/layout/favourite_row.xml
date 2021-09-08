@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="4dp"
+    android:weightSum="13"
+    android:id="@+id/salary_row">
+    <ImageView
+        android:id="@+id/food_icon"
+        android:layout_margin="15dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_weight="1"/>
+
+    <LinearLayout
+
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="10dp"
+        android:layout_weight="7"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+
+
+        <TextView
+            android:id="@+id/row_food_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="hétszőnyű" />
+
+        <TextView
+            android:id="@+id/row_food_category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="kapanyányimonyók" />
+    </LinearLayout>
+</LinearLayout>

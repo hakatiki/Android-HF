@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Recipes</string>
+    <string name="create_recipe">Create Recipe</string>
+    <string name="delete_all">Delete all</string>
+    <string name="new_recipe">New Recipe</string>
+    <string name="name">Name</string>
+    <string name="category">Category</string>
+    <string name="recipe">Recipe</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="remove">Remove</string>
+    <string name="show_favourites">Show favourites</string>
+    <string name="show_all">Show all</string>
+    <string name="favourites">Favourites</string>
+    <string-array name="category_items">
+        <item>Dessert</item>
+        <item>Soup</item>
+        <item>Pizza</item>
+    </string-array>
+</resources>
